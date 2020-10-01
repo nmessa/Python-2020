@@ -8,9 +8,10 @@ def isPrime(number):
             return False
     return True
 
-
+count = 0
 for num in range(2, 1001):
     if isPrime(num):
-        if num % 5 == 0:
-            print()
         print (num , end = ' ')
+        count += 1
+        if count % 10 == 0:
+            print()
