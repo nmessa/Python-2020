@@ -1,4 +1,4 @@
-## Function demo 1 with plotting
+## Function demo 1 with more accurate plotting
 ## Author: nmessa
 import pylab
 
@@ -18,6 +18,8 @@ for i in range(1000):
     x += 10/1000
 
 pylab.plot(ex, efx)
+pylab.xlabel("x")
+pylab.ylabel("f(x)")
 pylab.grid(True)
 pylab.show()
 
