@@ -1,0 +1,7 @@
+This is a test
+of reading files
+Jack be nimble
+Jack be quick
+Mary had a little lamb
+Whose fleece looked like a candlestick
+It was not fireproof
