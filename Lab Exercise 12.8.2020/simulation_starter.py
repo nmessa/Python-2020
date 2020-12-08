@@ -71,7 +71,7 @@ def printHistogram(X):
     '''
     This will print a histogram of a dictionary containing numeric values
     '''
-    #test = ('H', 'T')
+    test = ('H', 'T')
     print()
     print ("Histogram")
     keyList = list(X.keys())                          #get a list of keys in the dictionary
